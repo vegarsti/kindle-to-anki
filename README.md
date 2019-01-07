@@ -1,11 +1,11 @@
-# Put highlighted words from Kindle into an Airtable and into Anki
+# Make flashcards out of one-word highlights in Kindle
 
 First install [this Anki script](https://github.com/sirupsen/anki-airtable).
 
-1. Run Ruby script to get the Kindle highlights
-2. Filter out one-word highlights
-3. Write these to [my Airtable](https://airtable.com/tblojkgAOAhnfl3rc/viw9QuWEFketZlvfP)
-4. From time to time, go over words in the spreadsheet and add their meaning
-5. These words will show up as flashcards in Anki
+The [`run_kindle_highlight_pipeline.sh`](run_kindle_highlight_pipeline.sh) bash script does the following.
 
-Happy learning!
+1. Runs Ruby script to get the Kindle highlights
+2. Filters out one-word highlights
+3. Writes these to [my Airtable](https://airtable.com/tblojkgAOAhnfl3rc/viw9QuWEFketZlvfP)
+
+From time to time, I go over the words in the spreadsheet and add their meaning. These words show up as flashcards in Anki. Nice!
