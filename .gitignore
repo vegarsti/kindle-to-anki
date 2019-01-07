@@ -7,4 +7,5 @@ wordenv
 update_script_on_server.sh
 
 # passwords ...
-secrets.py
+set_kindle_password_environment_variable.sh
+airtable_secrets.py

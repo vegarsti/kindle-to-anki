@@ -1,5 +1,5 @@
 from airtable import Airtable
-from secrets import API_key, base_key
+from airtable_secrets import API_key, base_key
 
 # Update words in base
 airtable = Airtable(base_key=base_key, table_name="Words", api_key=API_key)
