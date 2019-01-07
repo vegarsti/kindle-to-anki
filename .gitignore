@@ -1,0 +1,10 @@
+# virtual envs
+.env
+wordenv
+*.txt
+
+# random
+update_script_on_server.sh
+
+# passwords ...
+secrets.py
