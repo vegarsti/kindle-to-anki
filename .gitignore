@@ -6,6 +6,7 @@ wordenv
 # random
 update_script_on_server.sh
 cron_log.txt
+__pycache__
 
 # passwords ...
 set_kindle_password_environment_variable.sh
